@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/ki-starter-set//_next/:path+",
+        "destination": "/ki-starter-set/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
